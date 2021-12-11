@@ -1,0 +1,22 @@
+package com.learn;
+
+public class StudentProfil {
+
+    String firstName;
+    String lastName;
+    String declaredMajor;
+    double gpa;
+    int expectedYearToGraduate;
+
+public StudentProfil(String firstName, String lastName, String declaredMajor, double gpa, int expectedYearToGraduate){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.declaredMajor = declaredMajor;
+    this.gpa = gpa;
+    this.expectedYearToGraduate = expectedYearToGraduate;
+}
+
+public void incrementExpectedYearToGraduate(){
+this.expectedYearToGraduate = expectedYearToGraduate +1;
+}
+}
